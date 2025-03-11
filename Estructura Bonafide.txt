@@ -1,0 +1,74 @@
+
+--- Stack tecnológico ---
+
+✅ Frontend: AngularJS, HTML, CSS, JavaScript  
+✅ Backend: PHP, MySQL  
+✅ APIs: JSON  
+✅ MVC (Modelo-Vista-Controlador)  
+✅ Hosting: Hostinger  
+✅ Control de versiones: GitHub  
+
+--- Estructura ---
+
+📂 BonafideWeb 				 
+├── 📂 frontend 		(Carpeta del frontend con AngularJS)
+│   ├── 📂 src 		(Código fuente de AngularJS)
+│   │   ├── 📂 app 			(Componentes principales de AngularJS)
+│   │   │   ├── 📂 components		(Componentes reutilizables: navbar, footer, etc.)  
+│   │   │   ├── 📂 pages 		(Vistas de cada sección del sitio web)*  
+│   │   │   │   ├── home.html 
+│   │   │   │   ├── pedir.html 
+│   │   │   │   ├── login.html 
+│   │   │   │   ├── + 
+│   │   │   ├── app.module.js 		(Configuración del módulo principal en AngularJS)  
+│   │   │   ├── app.routes.js 		(Definición de rutas con AngularJS)  
+│   │   ├── 📂 assets 		(Imágenes, fuentes, etc.)  
+│   │   ├── 📂 css 			(Estilos globales y específicos del sitio)  
+│   │   │   ├── style.css 			(Archivo de estilos principal)  
+│   │   │   ├── responsive.css 		(Estilos adaptativos)  
+│   │   ├── 📂 js 			(Lógica del frontend en JavaScript)  
+│   │   │   ├── main.js 			(Funciones generales del sitio) 
+│   │   │   ├── carrito.js 			(Funciones para el carrito de compras)  
+│   │   │   ├── auth.js 			(Manejo de autenticación de usuarios)  
+│   │   ├── index.html 	(Archivo principal del frontend - Redirecciones)  
+│  
+├── 📂 backend 		(Carpeta del backend en PHP - Sigue MVC)  
+│   ├── 📂 config 		(Configuraciones y conexión con MySQL)  
+│   │   ├── database.php 		(Configuración de la conexión a MySQL)  
+│   │   ├── config.php 		(Variables globales del sistema)  
+│   ├── 📂 controllers 	(Controladores que manejan la lógica del negocio)  
+│   │   ├── AuthController.php 	(Autenticación de usuarios)  
+│   │   ├── ProductoController.php 	(Gestión de productos)  
+│   │   ├── PedidoController.php 	(Gestión de pedidos y pagos)  
+│   │   ├── CarritoController.php 	(Lógica del carrito de compras)  
+│   ├── 📂 models 		(Modelos que interactúan con la base de datos)  
+│   │   ├── Usuario.php 		(Modelo de usuarios)  
+│   │   ├── Producto.php 		(Modelo de productos)  
+│   │   ├── Pedido.php 		(Modelo de pedidos)  
+│   │   ├── Carrito.php 		(Modelo del carrito de compras)  
+│   ├── 📂 views		(Vistas generadas en PHP si se usa alguna en backend) 
+│   │   ├── header.php 		(Encabezado común en todas las vistas) 
+│   │   ├── footer.php 		(Pie de página común en todas las vistas)  
+│   │   ├── admin.php 		(Vista del panel de administración  
+│   ├── 📂 api 		(Carpeta para las API en formato JSON)  
+│   │   ├── productos.php 		(Devuelve JSON con productos)  
+│   │   ├── pedidos.php 		(Devuelve JSON con pedidos)  
+│   │   ├── usuarios.php 		(Devuelve JSON con usuarios)  
+│   ├── .htaccess 		(Configuraciones de redirección y seguridad para Apache)  
+│  
+├── 📂 database 		(Base de datos MySQL)  
+│   ├── db.sql 			(Archivo SQL con la estructura de la base de datos)  
+│   ├── seed.php 			(Opcional: Inserción de datos de prueba)  
+│  
+├── 📂 docs 			(Documentación y recursos del proyecto)  
+│   ├── manual-usuario.pdf 		(Guía para usar la plataforma)  
+│   ├── api-documentation.md 		(Explicación de las APIs en JSON)  
+│  
+├── 📂 deploy 			(Archivos para el despliegue en Hostinger)  
+│   ├── hostinger-config.md 		(Instrucciones específicas para subir a Hostinger)  
+│   ├── htaccess.txt 			(Configuraciones de Apache para producción)  
+│  
+├── .gitignore 		(Archivos y carpetas a ignorar en GitHub)  
+├── README.md 			(Explicación del proyecto para GitHub)  
+├── composer.json 		(Dependencias PHP si usas Composer)  
+
